@@ -1,6 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  font-family: "Raleway", sans-serif;
+}
 
 *,
 ::before,
@@ -14,6 +20,9 @@
 
 @layer base {
   :root {
+    --pop: 19 73% 51%;
+    --pop-foreground: 0 0% 98%;
+
     --background: 0 0% 100%;
     --foreground: 240 10% 3.9%;
 
@@ -46,6 +55,9 @@
   }
 
   .dark {
+    --pop: 19 73% 51%;
+    --pop-foreground: 0 0% 98%;
+
     --background: 240 10% 3.9%;
     --foreground: 0 0% 98%;
 
