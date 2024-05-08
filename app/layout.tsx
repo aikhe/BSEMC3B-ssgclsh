@@ -21,7 +21,7 @@ export default function RootLayout({
       <head>
         <link rel="icon" type="image/svg+xml" href="/icon.png" />
       </head>
-      <body>
+      <body className="bg-wow">
         <ThemeProvider
           attribute="class"
           defaultTheme="system"

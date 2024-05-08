@@ -1,11 +1,23 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+.hero-img {
+  background-image: url("/images/Logos.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  z-index: -10;
+}
+
+.test {
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 4% 100%, 0 85%);
+}
+
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: "Poetsen One", sans-serif;
 }
 
 *,
@@ -18,10 +30,28 @@ body {
   border: red solid 2px;
 }
 
+.text-border {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+@layer utilities {
+  .underline-custom {
+    text-decoration: underline;
+    text-decoration-thickness: 4px; /* Adjust thickness */
+  }
+}
+
 @layer base {
   :root {
-    --pop: 19 73% 51%;
+    --pop: 19 79% 52%;
     --pop-foreground: 0 0% 98%;
+
+    --bun: 232 34% 50%;
+    --bun-foreground: 0 0% 98%;
+
+    --wow: 31 100% 86%;
+    --wow-foreground: 0 0% 98%;
 
     --background: 0 0% 100%;
     --foreground: 240 10% 3.9%;
@@ -55,8 +85,14 @@ body {
   }
 
   .dark {
-    --pop: 19 73% 51%;
+    --pop: 19 79% 52%;
     --pop-foreground: 0 0% 98%;
+
+    --bun: 232 34% 50%;
+    --bun-foreground: 0 0% 98%;
+
+    --wow: 31 100% 86%;
+    --wow-foreground: 0 0% 98%;
 
     --background: 240 10% 3.9%;
     --foreground: 0 0% 98%;

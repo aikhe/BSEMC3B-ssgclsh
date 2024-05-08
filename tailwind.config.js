@@ -27,6 +27,14 @@ module.exports = {
           DEFAULT: "hsl(var(--pop))",
           foreground: "hsl(var(--pop-foreground))",
         },
+        bun: {
+          DEFAULT: "hsl(var(--bun))",
+          foreground: "hsl(var(--bun-foreground))",
+        },
+        wow: {
+          DEFAULT: "hsl(var(--wow))",
+          foreground: "hsl(var(--wow-foreground))",
+        },
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
