@@ -5,15 +5,20 @@
 @tailwind utilities;
 
 .hero-img {
-  background-image: url("/images/Logos.png");
+  background-image: url("/images/Logos(2).png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   z-index: -10;
+  position: relative;
 }
 
-.test {
-  clip-path: polygon(0 0, 100% 0%, 100% 100%, 4% 100%, 0 85%);
+.cutout {
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 4% 100%, 0 87%);
+}
+
+.cutout-mobile {
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 10% 100%, 0 90%);
 }
 
 body {

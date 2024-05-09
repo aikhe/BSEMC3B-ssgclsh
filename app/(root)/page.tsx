@@ -3,7 +3,7 @@ import Header from "@/components/root/ui/header";
 
 export default function Home() {
   return (
-    <main className=" -z-50">
+    <main className="">
       <Hero />
     </main>
   );
