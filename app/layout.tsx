@@ -7,8 +7,8 @@ import Header from "@/components/root/ui/header";
 const dmSans = DM_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "hjkl",
-  description: "The only Next-js template that will suite my need",
+  title: "Sausage Clash",
+  description: "A thrilling 3D dodgeball game",
 };
 
 export default function RootLayout({
