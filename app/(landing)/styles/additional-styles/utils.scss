@@ -1,0 +1,11 @@
+$red-500: #ef4444;
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+.inspect {
+  border: $red-500 solid 3px;
+}
