@@ -51,7 +51,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - [x] Mobile nav/sidebar
 - [x] Responsive
 - [ ] UI/UX
-  - [ ] Navigation (Navbar)
+  - [x] Navigation (Navbar)
   - [ ] (Animations)
   - [ ] Root/Landing
 - [ ] Vercel deployment

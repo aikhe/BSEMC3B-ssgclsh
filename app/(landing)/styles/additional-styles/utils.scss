@@ -1,3 +1,5 @@
+@import url("https://fonts.cdnfonts.com/css/valorant");
+
 $red-500: #ef4444;
 
 *,
@@ -8,4 +10,8 @@ $red-500: #ef4444;
 
 .inspect {
   border: $red-500 solid 3px;
+}
+
+.font-valorant {
+  font-family: "VALORANT", sans-serif;
 }
