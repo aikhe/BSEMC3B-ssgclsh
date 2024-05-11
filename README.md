@@ -1,16 +1,18 @@
 # BSEMC3B-SausageClash-Web (initial)
 
-Installing on remote
+### Installing on remote:
 
-Dependencies: [https://git-scm.com/](git) & [https://nodejs.org/en](node-js)
+Dependencies: [git](https://git-scm.com/) & [node-js](https://nodejs.org/en)
 
 ```bash
 git clone https://github.com/ikeandrie/BSEMC3B-SausageClash-Web.git ./sausage-clash
+
 cd ./sausage-clash
+
 npm i -y
 ```
 
-Development
+### Development:
 
 ```bash
 npm run dev
@@ -21,6 +23,10 @@ pnpm dev
 # or
 bun dev
 ```
+
+<hr>
+
+## To-do
 
 - [x] Reset
 - [x] Nextjs initial
