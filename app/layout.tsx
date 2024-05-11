@@ -27,6 +27,7 @@ export default function RootLayout({
     >
       <head>
         <link rel="icon" type="image/svg+xml" href="/favicon.png" />
+        <link href="https://fonts.cdnfonts.com/css/valorant" rel="stylesheet" />
       </head>
       <body className={`${titanOne.className}`}>
         <Header />

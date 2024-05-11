@@ -50,8 +50,18 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - [x] Root pages nav function
 - [x] Mobile nav/sidebar
 - [x] Responsive
-- [ ] UI/UX
+- [x] Font fix
+- [x] Active route/path on nav
+- [x] Link icon & nav
+- [x] Sidebar function
+
+- UI/UX
+
   - [x] Navigation (Navbar)
+  - [x] Group root
+  - [ ] Sidebar
+  - [ ] Footer
   - [ ] (Animations)
   - [ ] Root/Landing
+
 - [ ] Vercel deployment
