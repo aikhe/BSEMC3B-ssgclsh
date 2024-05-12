@@ -20,14 +20,14 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      className="scroll-smooth"
+      // className="scroll-smooth"
       lang="en"
       data-theme="fantasy"
       suppressHydrationWarning
     >
       <head>
         <link rel="icon" type="image/svg+xml" href="/favicon.png" />
-        <link href="https://fonts.cdnfonts.com/css/valorant" rel="stylesheet" />
+        {/* <link href="https://fonts.cdnfonts.com/css/valorant" rel="stylesheet" /> */}
       </head>
       <body className={`${titanOne.className}`}>
         <Header />
