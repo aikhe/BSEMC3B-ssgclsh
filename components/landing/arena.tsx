@@ -2,7 +2,7 @@ export const Arena = () => {
   return (
     <section
       id="arena"
-      className="min-h-screen w-full bg-neutral-content grid items-center justify-center"
+      className="grid min-h-screen w-full items-center justify-center bg-neutral-content"
     >
       <span>ARENA</span>
     </section>

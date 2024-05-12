@@ -1,5 +1,22 @@
 # BSEMC3B-SausageClash-Web (initial)
 
+https://sausageclash.vercel.app/
+
+#### Tech stack:
+
+Nextjs
+React
+Typescript
+Tailwindcss & sass
+Prismadb
+Supabase
+PostgreSQL
+React three fiber (three.js)
+Framermotion
+Daisy UI
+Git (version control)
+Vercel (deployment)
+
 ### Installing on remote:
 
 Dependencies: [git](https://git-scm.com/) & [node-js](https://nodejs.org/en)
@@ -37,6 +54,9 @@ bun dev
   - [x] Daisy UI
   - [x] Framer-motion & GSAP
 - [x] Metadata
+
+- Framework/skeleton
+
 - [x] Routing
 - [x] Root pages nav function
 - [x] Mobile nav/sidebar
@@ -45,14 +65,20 @@ bun dev
 - [x] Active route/path on nav
 - [x] Link icon & nav
 - [x] Sidebar function
+- [ ] Pre-loader
 
 - UI/UX
 
   - [x] Navigation (Navbar)
   - [x] Group root
-  - [ ] Sidebar
+  - [x] Sidebar
+  - [x] Hover state
+  - [x] Update to svh
   - [ ] Footer
-  - [ ] (Animations)
   - [ ] Root/Landing
 
-- [ ] Vercel deployment
+- ANIMATION/S
+
+  - [ ] Burger
+
+- [x] Vercel deployment

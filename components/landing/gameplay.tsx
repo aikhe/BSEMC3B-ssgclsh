@@ -2,9 +2,9 @@ export const Gameplay = () => {
   return (
     <section
       id="gameplay"
-      className="min-h-screen w-full bg-base-200 grid items-center justify-center"
+      className="grid min-h-screen w-full items-center justify-center bg-base-200"
     >
-      <span>GAMEPLAY</span>
+      <p>GAMEPLAY</p>
     </section>
   );
 };

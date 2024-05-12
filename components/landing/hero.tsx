@@ -24,8 +24,8 @@ const icons = [
 
 export const Hero = () => {
   return (
-    <section className="mt-[4.5rem]">
-      <div className="flex flex-col items-center justify-center gap-3 bg-gradient-to-r from-[#df6e29] to-[#fc466b] py-[1rem] text-[1.4rem] text-white md:flex-row md:gap-6 md:py-[1.15rem]">
+    <>
+      <div className="absolute top-0 mt-[4.5rem] flex w-full flex-col items-center justify-center gap-3 bg-gradient-to-r from-[#df6e29] to-[#fc466b] py-[1rem] text-[1.4rem] text-white md:flex-row md:gap-6 md:py-[1.15rem]">
         <h3 className="leading-none">EXPERIENCE NOW!</h3>
         <div className="flex gap-[.7rem]">
           {icons.map((icon, index) => {
@@ -43,7 +43,11 @@ export const Hero = () => {
           })}
         </div>
       </div>
-      <div className="grid size-10 min-h-screen w-full items-center justify-center bg-neutral-content">
+      <section
+        id="home"
+        className="grid size-10 min-h-[100svh] w-full items-center justify-center bg-neutral-content"
+      >
+        <span>HOME</span>
         {/* <Image
           className="h-10 w-10"
           src="https://cdn2.unrealengine.com/fg-10-3-evg-keyart-backgroundonly-1920x1080-1920x1080-cf86998087ba.png"
@@ -52,8 +56,7 @@ export const Hero = () => {
           // height={100}
           fill
         /> */}
-        HOME
-      </div>
-    </section>
+      </section>
+    </>
   );
 };
