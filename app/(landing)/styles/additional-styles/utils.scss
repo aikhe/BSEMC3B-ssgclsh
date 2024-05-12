@@ -1,0 +1,41 @@
+$orange: #df6e29;
+$pink: rgb(255, 48, 164);
+
+@layer base {
+  *,
+  ::before,
+  ::after {
+    box-sizing: border-box;
+  }
+}
+
+@layer utilities {
+  .inspect {
+    border: red solid 3px;
+  }
+
+  .font-valorant {
+    font-family: "VALORANT";
+  }
+
+  .text-outline {
+    position: relative;
+    z-index: 1;
+
+    &::before {
+      position: absolute;
+      inset: 5px -5px -5px 5px;
+      color: black;
+      -webkit-text-stroke: 8px black;
+      opacity: 0.25;
+      z-index: -1;
+    }
+
+    &::after {
+      position: absolute;
+      inset: 0;
+      -webkit-text-stroke: 8px $pink;
+      z-index: -1;
+    }
+  }
+}
