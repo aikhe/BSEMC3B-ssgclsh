@@ -30,7 +30,7 @@ export default function RootLayout({
         {/* <link href="https://fonts.cdnfonts.com/css/valorant" rel="stylesheet" /> */}
       </head>
       <body className={`${titanOne.className}`}>
-        <Header />
+        {/* <Header /> */}
         {children}
       </body>
     </html>
