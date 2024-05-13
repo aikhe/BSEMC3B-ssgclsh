@@ -57,15 +57,16 @@ bun dev
 
 - Framework/skeleton
 
-- [x] Routing
-- [x] Root pages nav function
-- [x] Mobile nav/sidebar
-- [x] Responsive
-- [x] Font fix
-- [x] Active route/path on nav
-- [x] Link icon & nav
-- [x] Sidebar function
-- [ ] Pre-loader
+  - [x] Routing
+  - [x] Root pages nav function
+  - [x] Mobile nav/sidebar
+  - [x] Responsive
+  - [x] Font fix
+  - [x] Active route/path on nav
+  - [x] Link icon & nav
+  - [x] Sidebar function
+  - [ ] Lazy loading (assets)
+  - [ ] Pre-loader
 
 - UI/UX
 
@@ -74,11 +75,22 @@ bun dev
   - [x] Sidebar
   - [x] Hover state
   - [x] Update to svh
+  - [x] Bordered texts
+  - [x] Clip paths
+  - [x] Root/Landing setup
+  - [ ] Hero
+  - [ ] Gameplay
+  - [ ] Character
+  - [ ] Arena
+  - [ ] Gallery
+  - [ ] Anout us
+  - [ ] FaQ's
   - [ ] Footer
-  - [ ] Root/Landing
 
 - ANIMATION/S
 
   - [ ] Burger
 
+- [ ] Support next/image
+- [ ] Issues/Bugs on Issues
 - [x] Vercel deployment

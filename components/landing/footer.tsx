@@ -2,9 +2,9 @@ export const Footer = () => {
   return (
     <section
       id="footer"
-      className="grid min-h-screen w-full items-center justify-center bg-[#101013] text-white"
+      className="grid h-[20rem] w-full items-center justify-center bg-[#101013] text-white"
     >
-      <span>footer</span>
+      <span>FOOTER</span>
     </section>
   );
 };

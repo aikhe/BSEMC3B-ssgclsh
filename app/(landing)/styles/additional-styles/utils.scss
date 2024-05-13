@@ -38,4 +38,12 @@ $pink: rgb(255, 48, 164);
       z-index: -1;
     }
   }
+
+  .clip-path {
+    clip-path: polygon(0% 0%, 100% 0%, 100% calc(100% - 5vw), 0% 100%);
+  }
+
+  .clip-path-two {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% calc(100% - 5vw));
+  }
 }

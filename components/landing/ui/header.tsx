@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { DM_Sans } from "next/font/google";
-import { ArrowDown, Bean, Earth, Gamepad2, Menu } from "lucide-react";
+import { ArrowDown, Bean, Earth, Gamepad2, Menu, X } from "lucide-react";
 import { useState } from "react";
 import { LandingPages, Links } from "@/lib/nav-data";
 import { Sidebar } from "./sidebar";
@@ -32,7 +32,10 @@ export const Header = () => {
 
   return (
     <>
-      <header className="fixed z-50 flex h-[4.5rem] w-full items-center bg-[#101013] px-6 text-white">
+      <header
+        id="home"
+        className="fixed z-50 flex h-[4.5rem] w-full items-center bg-[#101013] px-6 text-white"
+      >
         <div
           className={`${dmSans.className} flex w-full items-center justify-between font-medium text-white`}
         >
@@ -52,7 +55,11 @@ export const Header = () => {
           </div>
 
           <button className="lg:hidden" onClick={handleToggleSidebar}>
-            <Menu className="size-8" />
+            {sidebarOpen ? (
+              <X className="size-8" />
+            ) : (
+              <Menu className="size-8" />
+            )}
           </button>
 
           {/* END */}
@@ -66,7 +73,7 @@ export const Header = () => {
                 onMouseLeave={() => setIsHovered(false)}
                 href={isRoot ? "#home" : Links[0].Link}
                 className={`${buttonTransition}
-                  whitespace-nowrap px-5 py-[.3rem] text-[.9rem] text-slate-200/60
+                  whitespace-nowrap px-5 py-[.3rem] text-[.9rem] text-slate-200/70
                   hover:bg-slate-200/20 hover:text-white/80 lg:inline 
                   ${isHovered && pathName === Links[0].Link ? "hover:rounded-l-lg" : "hover:rounded-lg"}
                   ${isHovered ? "bg-none" : pathName === Links[0].Link && "rounded-l-lg bg-slate-200/20 text-white/80 hover:rounded-l-md"}
