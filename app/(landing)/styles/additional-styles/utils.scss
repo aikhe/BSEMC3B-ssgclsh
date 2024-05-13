@@ -1,5 +1,6 @@
-$orange: #df6e29;
+$orange: #fa8237;
 $pink: rgb(255, 48, 164);
+$indigo: #545fab;
 
 @layer base {
   *,
@@ -18,6 +19,11 @@ $pink: rgb(255, 48, 164);
     font-family: "VALORANT";
   }
 
+  .text-shadow {
+    filter: drop-shadow(0 3px 2px rgb(0 0 0 / 0.2))
+      drop-shadow(0 2px 2px rgb(0 0 0 / 0.2));
+  }
+
   .text-outline {
     position: relative;
     z-index: 1;
@@ -34,7 +40,7 @@ $pink: rgb(255, 48, 164);
     &::after {
       position: absolute;
       inset: 0;
-      -webkit-text-stroke: 8px $pink;
+      -webkit-text-stroke: 8px $orange;
       z-index: -1;
     }
   }

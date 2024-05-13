@@ -51,7 +51,9 @@ bun dev
 - [x] Project structure/organization
 - [x] Font
 - [x] Install dependencies/packages:
-  - [x] Daisy UI
+  - [x] Daisy
+  - [ ] Shadcn
+  - [ ] Aceternity
   - [x] Framer-motion & GSAP
 - [x] Metadata
 
@@ -73,24 +75,32 @@ bun dev
   - [x] Navigation (Navbar)
   - [x] Group root
   - [x] Sidebar
-  - [x] Hover state
+  - [x] Nav hover state
   - [x] Update to svh
-  - [x] Bordered texts
+  - [x] Bordered text
   - [x] Clip paths
   - [x] Root/Landing setup
-  - [ ] Hero
-  - [ ] Gameplay
-  - [ ] Character
-  - [ ] Arena
-  - [ ] Gallery
-  - [ ] Anout us
-  - [ ] FaQ's
-  - [ ] Footer
+  - [x] Button variants
+
+  - PAGES
+
+    - [x] Hero
+    - [x] Gameplay
+    - [x] Character
+    - [ ] Arena
+    - [ ] Footer
+    - [ ] Anout us
+    - [ ] Gallery
+    - [ ] FaQ's
 
 - ANIMATION/S
 
   - [ ] Burger
+  - [ ] Hover & Active states
+
+- CRUTIALS
 
 - [ ] Support next/image
-- [ ] Issues/Bugs on Issues
+- [ ] Reusable colors (CRUD pls)
+- [ ] Issues/bugs/to be added on Issues
 - [x] Vercel deployment

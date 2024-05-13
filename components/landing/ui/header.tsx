@@ -34,7 +34,7 @@ export const Header = () => {
     <>
       <header
         id="home"
-        className="fixed z-50 flex h-[4.5rem] w-full items-center bg-[#101013] px-6 text-white"
+        className="fixed z-50 flex h-[4.5rem] w-full items-center bg-[#101013] px-4 text-white lg:px-6"
       >
         <div
           className={`${dmSans.className} flex w-full items-center justify-between font-medium text-white`}

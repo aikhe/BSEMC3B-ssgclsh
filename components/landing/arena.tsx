@@ -6,7 +6,7 @@ export const Arena = () => {
     >
       <img
         className="absolute h-full w-full object-cover"
-        src="https://cdn2.unrealengine.com/circles-purplegradient-1-1440x1035-47dd96bf8bf0.png"
+        src="https://cdn2.unrealengine.com/evergreen-patternbackground-1920x1080-a7141a12bf8f.png"
         alt=""
       />
       <span className="z-[1] text-4xl text-white">ARENA</span>
