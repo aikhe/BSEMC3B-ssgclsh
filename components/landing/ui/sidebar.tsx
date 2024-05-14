@@ -1,12 +1,9 @@
 import { LandingPages, Links } from "@/lib/nav-data";
 import { ArrowDown, Earth, Gamepad2 } from "lucide-react";
-import { FaFacebook } from "react-icons/fa";
 import { DM_Sans } from "next/font/google";
 import Link from "next/link";
-import { FaSquareFacebook, FaXTwitter } from "react-icons/fa6";
-import { IoLogoYoutube } from "react-icons/io";
-import { PiTiktokLogoFill } from "react-icons/pi";
-import { RiInstagramFill } from "react-icons/ri";
+import { SocialsIcon } from "@/lib/nav-data";
+import { Socials } from "./socials";
 
 const dmSans = DM_Sans({ subsets: ["latin"] });
 
@@ -19,29 +16,6 @@ interface SidebarProps {
 
 const linkStylesSideBar =
   "text-base leading-none px-4 text-white/70 py-[1.2rem] bg-slate-50/5 w-full rounded-xl hover:bg-slate-50/20 hover:text-white/90";
-
-const icons = [
-  {
-    Icon: FaSquareFacebook,
-    Link: "",
-  },
-  {
-    Icon: PiTiktokLogoFill,
-    Link: "",
-  },
-  {
-    Icon: IoLogoYoutube,
-    Link: "",
-  },
-  {
-    Icon: FaXTwitter,
-    Link: "",
-  },
-  {
-    Icon: RiInstagramFill,
-    Link: "",
-  },
-];
 
 export const Sidebar: React.FC<SidebarProps> = ({
   handleClick,
@@ -113,28 +87,15 @@ export const Sidebar: React.FC<SidebarProps> = ({
         <Link
           onClick={handleClick}
           className={`${buttonTransition} flex w-[22rem] items-center justify-center gap-2 rounded-xl bg-[#ffddb8] py-[1rem] text-base font-medium leading-none text-[#101013] hover:bg-[#ffddb8]/80`}
-          href={isRoot ? LandingPages[2].Id : Links[0].Link}
+          href={isRoot ? LandingPages[0].Id : Links[0].Link}
         >
           <Gamepad2 className="size-[1.25rem] " />
           Play now
         </Link>
       </div>
-      <div className="flex h-[10svh] w-full items-center justify-center gap-8 bg-gradient-to-r from-[#545fab] from-[1%] via-indigo-500 via-[40%] to-sky-500 to-[90%] px-4 text-white drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">
-        <p className="text-2xl drop-shadow-md">SOCIALS:</p>
-        <div className="flex gap-3">
-          {icons.map((icon, index) => {
-            const Icon = icon.Icon;
-
-            return (
-              <Link href={icon.Link} key={index}>
-                <Icon
-                  size={30}
-                  className={`${buttonTransition} drop-shadow-md hover:text-white/70`}
-                />
-              </Link>
-            );
-          })}
-        </div>
+      <div className="flex h-[10svh] w-full items-center justify-center gap-8 bg-gradient-to-r from-[#545fab] from-[1%] via-indigo-500 via-[40%] to-sky-500 to-[90%] px-4 text-white">
+        <span className="text-2xl drop-shadow-md">SOCIALS:</span>
+        <Socials />
       </div>
     </div>
   );

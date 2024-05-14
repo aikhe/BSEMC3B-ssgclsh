@@ -3,6 +3,7 @@ import { Character } from "@/components/landing/character";
 import { Footer } from "@/components/landing/footer";
 import { Gameplay } from "@/components/landing/gameplay";
 import { Hero } from "@/components/landing/hero";
+import { TestPage } from "@/components/landing/test-page";
 import { Banner } from "@/components/landing/ui/banner";
 
 export default function Landing() {
@@ -14,6 +15,7 @@ export default function Landing() {
       <Character />
       <Arena />
       <Footer />
+      {/* <TestPage /> */}
     </div>
   );
 }

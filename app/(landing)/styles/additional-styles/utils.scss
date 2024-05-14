@@ -1,6 +1,6 @@
 $orange: #fa8237;
 $pink: rgb(255, 48, 164);
-$indigo: #545fab;
+$indigo: #2a3db6;
 
 @layer base {
   *,
@@ -40,7 +40,7 @@ $indigo: #545fab;
     &::after {
       position: absolute;
       inset: 0;
-      -webkit-text-stroke: 8px $orange;
+      -webkit-text-stroke: 8px $indigo;
       z-index: -1;
     }
   }

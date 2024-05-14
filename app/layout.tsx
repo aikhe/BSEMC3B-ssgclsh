@@ -19,12 +19,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      className="scroll-smooth"
-      lang="en"
-      data-theme="fantasy"
-      suppressHydrationWarning
-    >
+    <html className="scroll-smooth" lang="en" suppressHydrationWarning>
       <head>
         <link rel="icon" type="image/svg+xml" href="/favicon.png" />
         <link href="https://fonts.cdnfonts.com/css/valorant" rel="stylesheet" />

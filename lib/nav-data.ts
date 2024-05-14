@@ -1,3 +1,8 @@
+import { FaSquareFacebook, FaXTwitter } from "react-icons/fa6";
+import { IoLogoYoutube } from "react-icons/io";
+import { PiTiktokLogoFill } from "react-icons/pi";
+import { RiInstagramFill } from "react-icons/ri";
+
 export const Links = [
   {
     Link: "/",
@@ -29,5 +34,28 @@ export const LandingPages = [
   {
     Id: "#arena",
     Text: "Arena",
+  },
+];
+
+export const SocialsIcon = [
+  {
+    Icon: FaSquareFacebook,
+    Link: "",
+  },
+  {
+    Icon: PiTiktokLogoFill,
+    Link: "",
+  },
+  {
+    Icon: IoLogoYoutube,
+    Link: "",
+  },
+  {
+    Icon: FaXTwitter,
+    Link: "",
+  },
+  {
+    Icon: RiInstagramFill,
+    Link: "",
   },
 ];

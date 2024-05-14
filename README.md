@@ -52,7 +52,7 @@ bun dev
 - [x] Font
 - [x] Install dependencies/packages:
   - [x] Daisy
-  - [ ] Shadcn
+  - [x] Shadcn
   - [ ] Aceternity
   - [x] Framer-motion & GSAP
 - [x] Metadata
@@ -77,19 +77,23 @@ bun dev
   - [x] Sidebar
   - [x] Nav hover state
   - [x] Update to svh
+  - [x] Root/Landing setup
+
+  - REUSABLE COMPONENTS/UTILITIES
+
+  - [x] Button variants
   - [x] Bordered text
   - [x] Clip paths
-  - [x] Root/Landing setup
-  - [x] Button variants
 
   - PAGES
 
     - [x] Hero
     - [x] Gameplay
     - [x] Character
-    - [ ] Arena
-    - [ ] Footer
-    - [ ] Anout us
+      - [ ] Implement carousel
+    - [x] Arena
+    - [x] Footer
+    - [ ] About us
     - [ ] Gallery
     - [ ] FaQ's
 
@@ -97,6 +101,10 @@ bun dev
 
   - [ ] Burger
   - [ ] Hover & Active states
+
+- BACKEND
+
+- [ ] Prisma
 
 - CRUTIALS
 
