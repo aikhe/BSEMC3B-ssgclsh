@@ -5,13 +5,14 @@ export const Arena = () => {
   return (
     <section
       id="arena"
-      className="relative z-[4] grid h-[54rem] w-full items-center justify-center
-        border-b-4 border-white bg-neutral-content pt-[5.5rem] md:h-[40rem]
+      className="bg-neutral-content relative z-[4] grid h-[54rem] w-full items-center
+        justify-center border-b-4 border-white pt-[5.5rem] md:h-[40rem]
         lg:h-[48rem] lg:pt-0"
     >
       <img
         className="absolute h-full w-full object-cover"
         src="https://cdn2.unrealengine.com/evergreen-patternbackground-1920x1080-a7141a12bf8f.png"
+        // src="/images/1.png"
         alt=""
       />
       <div
@@ -43,7 +44,7 @@ export const Arena = () => {
               SAUSAGE SHOWDOWNS!
             </h3>
           </div>
-          <div className="flex flex-col items-center gap-2">
+          <div className="flex flex-col items-center gap-3">
             <Link href="/gallery">
               <ButtonVariants text="MORE ON GALLERY" />
             </Link>

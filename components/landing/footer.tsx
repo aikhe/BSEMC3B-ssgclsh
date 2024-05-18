@@ -59,7 +59,7 @@ export const Footer = () => {
         <p className="max-w-[35ch] text-center text-sm text-white/70 md:max-w-[60ch]">
           &copy; 2024 SausageClash Limited. All rights reserved. The
           Sausageclash logo, bean logo and characters are trademarks of
-          Sausageclash Limited
+          SausageClash Limited
         </p>
       </div>
     </section>

@@ -12,7 +12,8 @@ export const Gameplay = () => {
       >
         <img
           className="absolute h-full w-full object-cover"
-          src="https://cdn2.unrealengine.com/evergreen-patternbackground-1920x1080-a7141a12bf8f.png"
+          // src="https://cdn2.unrealengine.com/evergreen-patternbackground-1920x1080-a7141a12bf8f.png"
+          src="/images/2.png"
           alt=""
         />
         <div className="z-[8] flex flex-col gap-14 text-white lg:flex-row">

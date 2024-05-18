@@ -24,7 +24,8 @@ export const Character = () => {
       >
         <img
           className="absolute h-full w-full object-cover"
-          src="https://cdn2.unrealengine.com/circles-purplegradient-1-1440x1035-47dd96bf8bf0.png"
+          // src="https://cdn2.unrealengintitanOne.classNamee.com/circles-purplegradient-1-1440x1035-47dd96bf8bf0.png"
+          src="/images/3.png"
           alt=""
         />
         <div className="z-[6] flex flex-col items-center gap-10 text-white md:flex-row-reverse md:gap-4 lg:gap-24">

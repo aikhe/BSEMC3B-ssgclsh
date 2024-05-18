@@ -7,7 +7,7 @@ https://sausageclash.vercel.app/
 Nextjs <br/>
 React <br/>
 Typescript <br/>
-Tailwindcss & sass <br/>
+Tailwind & sass <br/>
 Prismadb <br/>
 Supabase <br/>
 PostgreSQL <br/>
