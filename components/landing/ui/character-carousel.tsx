@@ -54,7 +54,7 @@ export const CharacterCarousel = () => {
           <button
             onClick={onPrevClick}
             className="absolute z-10 hidden items-center justify-center rounded-full
-              border-4 border-white bg-[#fa8237] drop-shadow-md hover:bg-[#ffa065]
+              border-4 border-white bg-[#445fba] drop-shadow-md hover:bg-[#6175b8]
               md:left-0 md:flex md:size-12 lg:left-[8%] lg:size-14"
           >
             <ChevronLeft className="md:size-[2rem]" />
@@ -92,7 +92,7 @@ export const CharacterCarousel = () => {
           <button
             onClick={onNextClick}
             className="absolute z-10 hidden items-center justify-center rounded-full border-4
-              border-white bg-[#fa8237] drop-shadow-md hover:bg-[#ffa065] md:right-0 md:flex
+              border-white bg-[#445fba] drop-shadow-md hover:bg-[#6175b8] md:right-0 md:flex
               md:size-12 lg:right-[8%] lg:size-14"
           >
             <ChevronRight className="md:size-[2rem]" />
@@ -119,7 +119,7 @@ export const CharacterCarousel = () => {
                 <button
                   key={index}
                   onClick={button.onclick}
-                  className="flex size-10 rounded-full border-4 border-white bg-[#fa8237] p-1 drop-shadow-md hover:bg-[#ffa065]"
+                  className="flex size-10 rounded-full border-4 border-white bg-[#445fba] p-1 drop-shadow-md hover:bg-[#6175b8]"
                 >
                   <Icon />
                 </button>
