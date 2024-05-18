@@ -78,6 +78,7 @@ bun dev
   - [x] Nav hover state
   - [x] Update to svh
   - [x] Root/Landing setup
+  - [ ] Optimized on smaller screens
 
   - REUSABLE COMPONENTS/UTILITIES
 
@@ -90,7 +91,7 @@ bun dev
     - [x] Hero
     - [x] Gameplay
     - [x] Character
-      - [ ] Implement carousel
+      - [x] Implement carousel
     - [x] Arena
     - [x] Footer
     - [ ] About us
@@ -100,6 +101,7 @@ bun dev
 - ANIMATION/S
 
   - [ ] Burger
+  - [ ] Polish carousel ease
   - [ ] Hover & Active states
 
 - BACKEND

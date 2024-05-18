@@ -93,7 +93,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
           Play now
         </Link>
       </div>
-      <div className="flex h-[10svh] w-full items-center justify-center gap-8 bg-gradient-to-r from-[#545fab] from-[1%] via-indigo-500 via-[40%] to-sky-500 to-[90%] px-4 text-white">
+      <div className="flex h-[10svh] w-full items-center justify-center gap-8 bg-gradient-to-r from-[#445fba] from-[70%] to-[#6d83cc] px-4 text-white">
         <span className="text-2xl drop-shadow-md">SOCIALS:</span>
         <Socials />
       </div>

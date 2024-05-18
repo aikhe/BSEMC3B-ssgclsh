@@ -11,8 +11,8 @@ export const Arena = () => {
     >
       <img
         className="absolute h-full w-full object-cover"
-        src="https://cdn2.unrealengine.com/evergreen-patternbackground-1920x1080-a7141a12bf8f.png"
-        // src="/images/1.png"
+        // src="https://cdn2.unrealengine.com/evergreen-patternbackground-1920x1080-a7141a12bf8f.png"
+        src="/images/4.png"
         alt=""
       />
       <div
@@ -21,19 +21,37 @@ export const Arena = () => {
       >
         <div>
           <div
-            className="-mb-4 h-[12.5rem] w-[22rem] rotate-6 rounded-xl border-4
+            className="-mb-4 h-[12.5rem] w-[22rem] rotate-6 overflow-hidden rounded-xl border-4
               border-white bg-white/40 lg:-mb-12 lg:h-[25rem] lg:w-[40rem]"
-          ></div>
+          >
+            <img
+              className="absolute h-full w-full object-cover"
+              src="/images/arena/placeholder1.png"
+              alt=""
+            />
+          </div>
           <div
-            className="right-12 -mb-4 ml-20 h-[7.5rem] w-[13rem] -rotate-6 rounded-xl
+            className="right-12 -mb-4 ml-20 h-[7.5rem] w-[13rem] -rotate-6 overflow-hidden rounded-xl
               border-4 border-white bg-white/40 lg:-mb-[13rem] lg:ml-[22rem]
               lg:h-[12.5rem] lg:w-[22rem]"
-          ></div>
+          >
+            <img
+              className="absolute h-full w-full object-cover"
+              src="/images/arena/placeholder2.png"
+              alt=""
+            />
+          </div>
           <div
-            className="relative -z-[1] ml-12 h-[6rem] w-[10rem] rotate-[16deg] rounded-xl
+            className="relative -z-[1] ml-12 h-[6rem] w-[10rem] rotate-[16deg] overflow-hidden rounded-xl
               border-4 border-white bg-white/40 lg:-ml-[6rem] lg:h-[9rem]
               lg:w-[15rem] lg:rotate-[2deg]"
-          ></div>
+          >
+            <img
+              className="absolute h-full w-full object-cover"
+              src="/images/arena/placeholder3.png"
+              alt=""
+            />
+          </div>
         </div>
         <div className="flex flex-col gap-10">
           <div className="flex flex-col gap-2">

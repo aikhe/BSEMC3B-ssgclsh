@@ -13,7 +13,7 @@ export const Gameplay = () => {
         <img
           className="absolute h-full w-full object-cover"
           // src="https://cdn2.unrealengine.com/evergreen-patternbackground-1920x1080-a7141a12bf8f.png"
-          src="/images/2.png"
+          src="/images/background-images/bg3.png"
           alt=""
         />
         <div className="z-[8] flex flex-col gap-14 text-white lg:flex-row">
@@ -27,10 +27,16 @@ export const Gameplay = () => {
           </div>
           <div className="flex flex-col gap-4">
             <div
-              className="h-[12.5rem] w-[23rem] rounded-xl border-4 border-white
+              className="relative h-[12.5rem] w-[23rem] overflow-hidden rounded-xl border-4 border-white
                 bg-white/40 md:h-[20rem] md:w-[40rem] lg:h-[30rem] lg:w-[50rem]
                 lg:border-[6px]"
-            ></div>
+            >
+              <img
+                className="absolute h-full w-full object-cover"
+                src="/images/gameplay/placeholder.png"
+                alt=""
+              />
+            </div>
             <h3 className="text-outline ml-2 flex text-3xl text-white before:content-['EXCITING_AND_FUN...'] after:content-['EXCITING_AND_FUN...']">
               EXCITING AND FUN...
             </h3>
