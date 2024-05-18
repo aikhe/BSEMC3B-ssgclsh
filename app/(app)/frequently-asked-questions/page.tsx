@@ -6,7 +6,7 @@ export default function FAQ() {
         src="/images/2.png"
         alt=""
       />
-      <span className="z-10 text-white">FREQUENTLY ASKED QUESTION'S</span>
+      <span className="z-10 text-white">FREQUENTLY ASKED QUESTION&apos;S</span>
     </section>
   );
 }
