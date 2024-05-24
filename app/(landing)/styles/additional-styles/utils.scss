@@ -52,4 +52,14 @@ $indigo: #2a3db6;
   .clip-path-two {
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% calc(100% - 5vw));
   }
+
+  .bttn-gradience {
+    // background: #facc15;
+    background: rgb(219, 123, 46);
+    background: radial-gradient(
+      circle,
+      rgba(219, 123, 46, 1) 0%,
+      rgba(214, 81, 46, 1) 35%
+    );
+  }
 }

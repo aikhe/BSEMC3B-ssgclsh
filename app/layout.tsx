@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { Titan_One } from "next/font/google";
+import { Bungee } from "next/font/google";
 import "./(landing)/styles/globals.scss";
 import { Header } from "@/components/landing/ui/header";
 
-const titanOne = Titan_One({
+const bungee = Bungee({
   weight: ["400"],
   preload: false,
 });
@@ -24,7 +24,7 @@ export default function RootLayout({
         <link rel="icon" type="image/svg+xml" href="/favicon.png" />
         <link href="https://fonts.cdnfonts.com/css/valorant" rel="stylesheet" />
       </head>
-      <body className={`${titanOne.className}`}>
+      <body className={`${bungee.className}`}>
         <Header />
         {children}
       </body>

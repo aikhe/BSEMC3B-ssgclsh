@@ -78,8 +78,9 @@ bun dev
   - [x] Nav hover state
   - [x] Update to svh
   - [x] Root/Landing setup
+  - [x] Update font
   - [ ] Optimized on smaller screens
-  - [ ] More responsiveness for extra larger screens
+  - [ ] More responsivenes for extra larger screens
 
   - REUSABLE COMPONENTS/UTILITIES
 
@@ -89,6 +90,7 @@ bun dev
 
   - PAGES
 
+    - [ ] Update assets
     - [x] Hero
     - [x] Gameplay
     - [x] Character

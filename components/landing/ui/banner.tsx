@@ -33,7 +33,8 @@ export const Banner = () => {
             <Link
               href={icon.Link}
               key={index}
-              className="flex size-10 cursor-pointer items-center justify-center rounded-[.27rem] bg-white/80 text-[#445fba] drop-shadow-lg hover:bg-white/100"
+              className="flex size-10 cursor-pointer items-center justify-center rounded-[.27rem]
+              bg-white/80 text-[#445fba] drop-shadow-lg duration-300 hover:bg-white/100"
             >
               <Icon />
             </Link>
