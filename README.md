@@ -79,6 +79,7 @@ bun dev
   - [x] Update to svh
   - [x] Root/Landing setup
   - [ ] Optimized on smaller screens
+  - [ ] More responsiveness for extra larger screens
 
   - REUSABLE COMPONENTS/UTILITIES
 

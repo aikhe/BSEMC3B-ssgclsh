@@ -6,13 +6,12 @@ export const Gameplay = () => {
     <>
       <section
         id="gameplay"
-        className="clip-path-two relative z-[8] -mb-[4.7rem] grid h-[45.5rem] w-full
-          items-center justify-center bg-slate-600 pt-[3.8rem] lg:h-[52rem]
-          lg:pt-0"
+        className="clip-path-two thick:h-[60rem] thick:pt-[4.5rem] thick:-mb-[6rem] relative z-[8]
+          -mb-[4.7rem] grid h-[52.5rem] w-full items-center
+          justify-center bg-slate-600 pt-[8.8rem] lg:h-[52rem] lg:pt-[6rem]"
       >
         <img
           className="absolute h-full w-full object-cover"
-          // src="https://cdn2.unrealengine.com/evergreen-patternbackground-1920x1080-a7141a12bf8f.png"
           src="/images/background-images/bg3.png"
           alt=""
         />
@@ -48,7 +47,7 @@ export const Gameplay = () => {
           </div>
         </div>
       </section>
-      <div className="clip-path-two relative z-[7] -mb-[5rem] h-[5rem] w-full bg-white"></div>
+      <div className="clip-path-two thick:h-[6.5rem] thick:-mb-[6rem] relative z-[7] -mb-[5rem] h-[5rem] w-full bg-white"></div>
     </>
   );
 };

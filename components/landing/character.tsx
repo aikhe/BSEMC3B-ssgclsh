@@ -8,17 +8,20 @@ export const Character = () => {
     <>
       <section
         id="character"
-        className="clip-path bg-gray-600] relative z-[6] -mb-[4.7rem] grid h-[49rem]
-        w-full items-center justify-center pt-[3.5rem] md:h-[40rem] lg:h-[50rem]
-        lg:pt-0"
+        className="clip-path bg-gray-600] thick:h-[55rem] thick:-mb-[6rem] relative z-[6]
+        -mb-[4.7rem] grid h-[49rem] w-full items-center justify-center pt-[3.5rem]
+        md:h-[40rem] lg:h-[50rem] lg:pt-0"
       >
         <img
           className="absolute h-full w-full object-cover"
-          // src="https://cdn2.unrealengintitanOne.classNamee.com/circles-purplegradient-1-1440x1035-47dd96bf8bf0.png"
-          src="/images/3.png"
+          src="/images/background-images/4.png"
           alt=""
         />
-        <div className="z-[6] flex flex-col items-center gap-10 text-white md:flex-row-reverse md:gap-4 lg:gap-24">
+
+        <div
+          className="thick:gap-4 z-[6] flex flex-col items-center gap-10 text-white
+            md:flex-row-reverse md:gap-4 lg:-ml-[8rem] lg:gap-4"
+        >
           <div className="flex w-[31ch] flex-col text-center leading-none">
             <h2 className="text-shadow text-2xl text-yellow-400">CHARACTERS</h2>
             <h1 className="text-shadow text-4xl">
@@ -32,11 +35,10 @@ export const Character = () => {
             </p>
           </div>
 
-          {/* <CharacterCarousel /> */}
           <CharacterCarousel />
         </div>
       </section>
-      <div className="clip-path relative z-[5] -mb-[5rem] h-[5rem] w-full bg-white"></div>
+      <div className="clip-path thick:h-[6.5rem] thick:-mb-[6rem] relative z-[5] -mb-[5rem] h-[5rem] w-full bg-white"></div>
     </>
   );
 };

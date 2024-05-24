@@ -5,14 +5,13 @@ export const Arena = () => {
   return (
     <section
       id="arena"
-      className="bg-neutral-content relative z-[4] grid h-[54rem] w-full items-center
-        justify-center border-b-4 border-white pt-[5.5rem] md:h-[40rem]
-        lg:h-[48rem] lg:pt-0"
+      className="bg-neutral-content thick:h-[52.5rem] relative z-[4] grid h-[54rem] w-full
+        items-center justify-center border-b-8 border-white pt-[5.5rem]
+        md:h-[40rem] lg:h-[48rem] lg:pt-0"
     >
       <img
         className="absolute h-full w-full object-cover"
-        // src="https://cdn2.unrealengine.com/evergreen-patternbackground-1920x1080-a7141a12bf8f.png"
-        src="/images/4.png"
+        src="/images/background-images/3.png"
         alt=""
       />
       <div
