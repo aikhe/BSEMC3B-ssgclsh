@@ -13,10 +13,6 @@ export const Links = [
     Text: "Gallery",
   },
   {
-    Link: "/frequently-asked-questions",
-    Text: "FaQ's",
-  },
-  {
     Link: "/about-us",
     Text: "About us",
   },

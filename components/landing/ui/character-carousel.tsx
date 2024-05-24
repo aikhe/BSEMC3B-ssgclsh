@@ -53,9 +53,10 @@ export const CharacterCarousel = () => {
         <div className="relative flex max-w-[100vw] items-center gap-6 overflow-hidden md:max-w-[30rem] lg:max-w-[50rem] lg:gap-14">
           <button
             onClick={onPrevClick}
-            className="absolute z-10 hidden items-center justify-center rounded-full
-              border-4 border-white bg-[#445fba] drop-shadow-md hover:bg-[#6175b8]
-              md:left-0 md:flex md:size-12 lg:left-[8%] lg:size-14"
+            className="absolute z-10 hidden items-center justify-center rounded-full border-4
+              border-white bg-[#445fba] drop-shadow-md duration-300 hover:-translate-y-1
+              hover:bg-[#fa8237] hover:drop-shadow-2xl active:bg-[#445fba] md:left-0 md:flex
+              md:size-12 lg:left-[8%] lg:size-14"
           >
             <ChevronLeft className="md:size-[2rem]" />
           </button>
@@ -73,7 +74,9 @@ export const CharacterCarousel = () => {
                   className="flex w-[100vw] justify-center md:w-[30rem] lg:w-[50rem]"
                 >
                   <motion.div
-                    className={`size-[15rem] overflow-hidden rounded-full border-[6px] bg-white/40 drop-shadow-md md:size-[20rem] lg:size-[30rem] lg:border-[6px]`}
+                    className={`size-[15rem] overflow-hidden rounded-full border-[6px]
+                    bg-white/40 drop-shadow-md md:size-[20rem] lg:size-[30rem] lg:border-[6px]
+                    `}
                     animate={{ opacity: index === carouselIndex ? 1 : 0 }}
                   >
                     {char.imgUrl && (
@@ -91,9 +94,9 @@ export const CharacterCarousel = () => {
 
           <button
             onClick={onNextClick}
-            className="absolute z-10 hidden items-center justify-center rounded-full border-4
-              border-white bg-[#445fba] drop-shadow-md hover:bg-[#6175b8] md:right-0 md:flex
-              md:size-12 lg:right-[8%] lg:size-14"
+            className="absolute z-10 hidden items-center justify-center rounded-full border-4 border-white
+              bg-[#445fba] drop-shadow-md duration-300 hover:-translate-y-1 hover:bg-[#fa8237] hover:drop-shadow-2xl
+              active:bg-[#445fba] md:right-0 md:flex md:size-12 lg:right-[8%] lg:size-14"
           >
             <ChevronRight className="md:size-[2rem]" />
           </button>
@@ -119,7 +122,7 @@ export const CharacterCarousel = () => {
                 <button
                   key={index}
                   onClick={button.onclick}
-                  className="flex size-10 rounded-full border-4 border-white bg-[#445fba] p-1 drop-shadow-md hover:bg-[#6175b8]"
+                  className="flex size-10 rounded-full border-4 border-white bg-[#445fba] p-1 drop-shadow-md duration-300 hover:-translate-y-1 hover:bg-[#fa8237] hover:drop-shadow-2xl active:bg-[#445fba]"
                 >
                   <Icon />
                 </button>

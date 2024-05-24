@@ -20,7 +20,10 @@ export const Gameplay = () => {
             <h1 className="text-shadow text-4xl">
               FRANTIC, MEATY BATTLES IN A WILD DASH TO VICTORY!
             </h1>
-            <Link href="#character" className="float-start hidden lg:inline">
+            <Link
+              href="#character"
+              className="float-start hidden w-fit lg:inline"
+            >
               <ButtonVariants text="EXPLORE MORE" whiteText />
             </Link>
           </div>
@@ -32,7 +35,7 @@ export const Gameplay = () => {
             >
               <img
                 className="absolute h-full w-full object-cover"
-                src="/images/gameplay/placeholder.png"
+                src="/images/gameplay/gameplay.png"
                 alt=""
               />
             </div>

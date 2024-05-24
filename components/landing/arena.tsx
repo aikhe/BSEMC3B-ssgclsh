@@ -5,13 +5,13 @@ export const Arena = () => {
   return (
     <section
       id="arena"
-      className="bg-neutral-content thick:h-[52.5rem] relative z-[4] grid h-[54rem] w-full
-        items-center justify-center border-b-8 border-white pt-[5.5rem]
+      className="bg-neutral-content thick:h-[52.5rem] thick:border-b-8 relative z-[4] grid h-[54rem]
+        w-full items-center justify-center border-b-4 border-white pt-[5.5rem]
         md:h-[40rem] lg:h-[48rem] lg:pt-0"
     >
       <img
         className="absolute h-full w-full object-cover"
-        src="/images/background-images/3.png"
+        src="/images/background-images/2.png"
         alt=""
       />
       <div

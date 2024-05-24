@@ -86,11 +86,22 @@ export const Sidebar: React.FC<SidebarProps> = ({
         </div>
         <Link
           onClick={handleClick}
-          className={`${buttonTransition} flex w-[22rem] items-center justify-center gap-2 rounded-xl bg-[#ffddb8] py-[1rem] text-base font-medium leading-none text-[#101013] hover:bg-[#ffddb8]/80`}
-          href={isRoot ? LandingPages[0].Id : Links[0].Link}
+          className={`${buttonTransition} group/button flex w-[22rem] items-center justify-center
+                  gap-2 overflow-hidden whitespace-nowrap rounded-xl bg-[rgb(255,221,184)] px-3
+                  py-[1rem] text-base leading-none text-[#18181c] drop-shadow-xl duration-300
+                  hover:bg-[#ffddb8]/80 group-hover/button:text-white
+                `}
+          href={isRoot ? "#home" : Links[0].Link}
         >
-          <Gamepad2 className="size-[1.25rem] " />
-          Play now
+          <div
+            className="absolute -z-[1] flex size-0 items-center justify-center
+                  overflow-hidden rounded-e-full rounded-s-full bg-[#ac9180] duration-500
+                  ease-in-out group-hover/button:size-96"
+          ></div>
+          <div className="flex items-center gap-1 duration-500 ease-in-out group-hover/button:text-white ">
+            <Gamepad2 className="size-[1.25rem]" />
+            Play now!
+          </div>
         </Link>
       </div>
       <div className="flex h-[10svh] w-full items-center justify-center gap-8 bg-gradient-to-r from-[#445fba] from-[70%] to-[#6d83cc] px-4 text-white">

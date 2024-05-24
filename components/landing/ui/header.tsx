@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { DM_Sans } from "next/font/google";
-import { ArrowDown, Bean, Earth, Gamepad2, Menu, X } from "lucide-react";
+import { ArrowDown, Earth, Gamepad2, Menu, X } from "lucide-react";
 import { useState } from "react";
 import { LandingPages, Links } from "@/lib/nav-data";
 import { Sidebar } from "./sidebar";
@@ -42,15 +42,26 @@ export const Header = () => {
           {/* MOBILE_NAVIGATION */}
 
           <div
+            className="flex items-center lg:w-[18.5rem]"
             onClick={sidebarOpen ? handleToggleSidebar : undefined}
-            className="mr-8 flex h-5 justify-center gap-2 lg:h-6"
           >
-            <Bean />
-            <Link
-              className="font-valorant whitespace-nowrap text-xl font-normal"
-              href={isRoot ? "#home" : Links[0].Link}
-            >
-              SAUSAGE CLASH
+            <Link href={isRoot ? "#home" : Links[0].Link}>
+              <img
+                className="h-16 cursor-pointer"
+                src="/images/studio.png"
+                // src="/images/logo-mono.png"
+                alt=""
+              />
+            </Link>
+
+            <div className="mx-[.5rem] h-10 w-[.10rem] bg-white/15"></div>
+
+            <Link className="mr-4" href={isRoot ? "#home" : Links[0].Link}>
+              <img
+                className="h-[2.5rem] cursor-pointer"
+                src="/images/logo-mono.png"
+                alt=""
+              />
             </Link>
           </div>
 
@@ -63,8 +74,6 @@ export const Header = () => {
           </button>
 
           {/* END */}
-
-          <div className="mr-[.6rem] hidden h-10 w-[.18rem] bg-white/15 lg:inline"></div>
 
           <div className="hidden w-full items-center justify-between lg:flex">
             <div className="flex items-center">
@@ -105,20 +114,22 @@ export const Header = () => {
                   </Link>
                 </div>
               )}
-              {Links &&
-                Links.slice(1).map((link, i) => {
-                  return (
-                    <Link
-                      onMouseEnter={() => setIsHovered(true)}
-                      onMouseLeave={() => setIsHovered(false)}
-                      className={`${linkStyles} ${buttonTransition} ${isHovered ? "bg-none" : pathName === link.Link && "bg-slate-200/20 text-white/80"}`}
-                      href={link.Link}
-                      key={i}
-                    >
-                      {link.Text}
-                    </Link>
-                  );
-                })}
+              <div className={`${isRoot ? "ml-4" : ""}`}>
+                {Links &&
+                  Links.slice(1).map((link, i) => {
+                    return (
+                      <Link
+                        onMouseEnter={() => setIsHovered(true)}
+                        onMouseLeave={() => setIsHovered(false)}
+                        className={`${linkStyles} ${buttonTransition} ${isHovered ? "bg-none" : pathName === link.Link && "bg-slate-200/20 text-white/80"}`}
+                        href={link.Link}
+                        key={i}
+                      >
+                        {link.Text}
+                      </Link>
+                    );
+                  })}
+              </div>
             </div>
 
             <div className="flex items-center gap-4 leading-none">
@@ -128,14 +139,22 @@ export const Header = () => {
                 />
               </Link>
               <Link
-                className={`${buttonTransition} flex items-center gap-2 whitespace-nowrap
-                  rounded-lg bg-[#ffddb8] px-3 py-1 text-base text-[#18181c]
-                  hover:bg-[#ffddb8]/80
+                className={`${buttonTransition} group/button flex items-center justify-center
+                  gap-2 overflow-hidden whitespace-nowrap rounded-lg bg-[#ffddb8] px-3 py-1
+                  text-base text-[#18181c] drop-shadow-xl duration-300
+                  hover:bg-[#ffddb8]/80 group-hover/button:text-white
                 `}
-                href={isRoot ? LandingPages[2].Id : Links[0].Link}
+                href={isRoot ? "#home" : Links[0].Link}
               >
-                <Gamepad2 className="size-[1.25rem]" />
-                Play now
+                <div
+                  className="absolute -z-[1] flex size-0 items-center justify-center
+                  overflow-hidden rounded-e-full rounded-s-full bg-[#ac9180] duration-500
+                  ease-in-out group-hover/button:size-32"
+                ></div>
+                <div className="flex items-center gap-1 duration-500 ease-in-out group-hover/button:text-white ">
+                  <Gamepad2 className="size-[1.25rem]" />
+                  Play now!
+                </div>
               </Link>
             </div>
           </div>

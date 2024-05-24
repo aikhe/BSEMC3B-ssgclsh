@@ -116,5 +116,6 @@ bun dev
 - [ ] Support next/image
 - [ ] Reusable colors (CRUD pls)
 - [ ] Issues/bugs/to be added on Issues
+- [x] Removed FaQ page
 - [x] Momentarly
 - [x] Vercel deployment

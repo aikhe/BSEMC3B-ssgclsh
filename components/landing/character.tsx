@@ -14,7 +14,7 @@ export const Character = () => {
       >
         <img
           className="absolute h-full w-full object-cover"
-          src="/images/background-images/4.png"
+          src="/images/background-images/3.png"
           alt=""
         />
 
