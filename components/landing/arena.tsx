@@ -5,9 +5,9 @@ export const Arena = () => {
   return (
     <section
       id="arena"
-      className="bg-neutral-content thick:h-[52.5rem] thick:border-b-8 relative z-[4] grid h-[54rem]
-        w-full items-center justify-center border-b-4 border-white pt-[5.5rem]
-        md:h-[40rem] lg:h-[48rem] lg:pt-0"
+      className="bg-neutral-content relative z-[4] grid h-[54rem] w-full items-center
+        justify-center border-b-4 border-white pt-[5.5rem] md:h-[40rem] lg:h-[48rem]
+        lg:pt-0 thick:h-[52.5rem] thick:border-b-8"
     >
       <img
         className="absolute h-full w-full object-cover"
@@ -62,10 +62,10 @@ export const Arena = () => {
             </h3>
           </div>
           <div className="flex flex-col items-center gap-3">
-            <Link href="/gallery">
+            <Link href="">
               <ButtonVariants text="MORE ON GALLERY" />
             </Link>
-            <Link href="/about-us">
+            <Link href="">
               <ButtonVariants text="ABOUT US" whiteText />
             </Link>
           </div>

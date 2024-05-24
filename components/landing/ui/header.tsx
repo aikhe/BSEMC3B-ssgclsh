@@ -142,7 +142,7 @@ export const Header = () => {
                   size={24}
                 />
               </Link>
-              <Link href={Links[1].Link}>
+              <Link href={``}>
                 <Earth
                   className={`${buttonTransition} cursor-pointer text-white/60 hover:text-white`}
                 />

@@ -8,7 +8,7 @@ export default function Gallery() {
         src="/images/gallery/bg.jpg"
         alt=""
       />
-      <GalleryItem />
+      {/* <GalleryItem /> */}
     </section>
   );
 }

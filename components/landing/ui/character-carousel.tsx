@@ -71,7 +71,7 @@ export const CharacterCarousel = () => {
               return (
                 <div
                   key={index}
-                  className="inspect flex w-[100vw] justify-center md:w-[30rem] lg:w-[50rem]"
+                  className="flex w-[100vw] justify-center md:w-[30rem] lg:w-[50rem]"
                 >
                   <motion.div
                     className={`size-[15rem] rounded-full border-[6px]
