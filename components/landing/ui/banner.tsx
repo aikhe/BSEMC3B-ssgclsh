@@ -34,7 +34,7 @@ export const Banner = () => {
               href={icon.Link}
               key={index}
               className="flex size-10 cursor-pointer items-center justify-center rounded-[.27rem]
-              bg-white/80 text-[#445fba] drop-shadow-lg duration-300 hover:bg-white/100"
+              bg-white/80 text-[#445fba] drop-shadow-lg duration-300 hover:translate-y-2 hover:bg-white/100"
             >
               <Icon />
             </Link>

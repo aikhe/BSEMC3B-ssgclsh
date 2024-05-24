@@ -7,7 +7,7 @@ export const Gameplay = () => {
       <section
         id="gameplay"
         className="clip-path-two thick:h-[60rem] thick:pt-[4.5rem] thick:-mb-[6rem] relative z-[8]
-          -mb-[4.7rem] grid h-[52.5rem] w-full items-center
+          -mb-[4.7rem] grid h-[54.5rem] w-full items-center
           justify-center bg-slate-600 pt-[8.8rem] lg:h-[52rem] lg:pt-[6rem]"
       >
         <img

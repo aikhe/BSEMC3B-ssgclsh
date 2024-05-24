@@ -8,14 +8,14 @@ export const Links = [
     Link: "/",
     Text: "Home",
   },
-  {
-    Link: "/gallery",
-    Text: "Gallery",
-  },
-  {
-    Link: "/about-us",
-    Text: "About us",
-  },
+  // {
+  //   Link: "/gallery",
+  //   Text: "Gallery",
+  // },
+  // {
+  //   Link: "/about-us",
+  //   Text: "About us",
+  // },
 ];
 
 export const LandingPages = [

@@ -3,6 +3,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { DM_Sans } from "next/font/google";
 import { ArrowDown, Earth, Gamepad2, Menu, X } from "lucide-react";
+import { ImGithub } from "react-icons/im";
 import { useState } from "react";
 import { LandingPages, Links } from "@/lib/nav-data";
 import { Sidebar } from "./sidebar";
@@ -133,6 +134,14 @@ export const Header = () => {
             </div>
 
             <div className="flex items-center gap-4 leading-none">
+              <Link
+                href={`https://github.com/ikeandrie/BSEMC3B-SausageClash-Web`}
+              >
+                <ImGithub
+                  className={`${buttonTransition} cursor-pointer text-white/60 hover:text-white`}
+                  size={24}
+                />
+              </Link>
               <Link href={Links[1].Link}>
                 <Earth
                   className={`${buttonTransition} cursor-pointer text-white/60 hover:text-white`}

@@ -1,12 +1,14 @@
+import { GalleryItem } from "@/components/gallery-item";
+
 export default function Gallery() {
   return (
-    <section className="bg-base-300 bg-neutral-content relative z-10 grid min-h-screen w-full items-center justify-center">
+    <section className="relative z-10 flex min-h-[100svh] w-full items-center">
       <img
-        className="absolute h-full w-full object-cover"
-        src="/images/2.png"
+        className="absolute -z-[1] h-full w-full object-cover"
+        src="/images/gallery/bg.jpg"
         alt=""
       />
-      <span className="z-10 text-white">GALLERY</span>
+      <GalleryItem />
     </section>
   );
 }

@@ -71,13 +71,15 @@ export const CharacterCarousel = () => {
               return (
                 <div
                   key={index}
-                  className="flex w-[100vw] justify-center md:w-[30rem] lg:w-[50rem]"
+                  className="inspect flex w-[100vw] justify-center md:w-[30rem] lg:w-[50rem]"
                 >
                   <motion.div
-                    className={`size-[15rem] overflow-hidden rounded-full border-[6px]
+                    className={`size-[15rem] rounded-full border-[6px]
                     bg-white/40 drop-shadow-md md:size-[20rem] lg:size-[30rem] lg:border-[6px]
                     `}
-                    animate={{ opacity: index === carouselIndex ? 1 : 0 }}
+                    animate={{
+                      opacity: index === carouselIndex ? 1 : 0,
+                    }}
                   >
                     {char.imgUrl && (
                       <img

@@ -8,14 +8,17 @@ Nextjs <br/>
 React <br/>
 Typescript <br/>
 Tailwind & sass <br/>
-Prismadb <br/>
-Supabase <br/>
-PostgreSQL <br/>
 React three fiber (three.js) <br/>
 Framermotion <br/>
 Daisy UI <br/>
 Git (version control) <br/>
 Vercel (deployment) <br/>
+
+to be implemented (backend):
+
+Prismadb <br/>
+Supabase <br/>
+PostgreSQL <br/>
 
 ### Installing on remote:
 
@@ -56,6 +59,7 @@ bun dev
   - [ ] Aceternity
   - [x] Framer-motion & GSAP
 - [x] Metadata
+- [ ] Update favicon
 
 - Framework/skeleton
 
@@ -80,7 +84,7 @@ bun dev
   - [x] Root/Landing setup
   - [x] Update font
   - [ ] Optimized on smaller screens
-  - [ ] More responsivenes for extra larger screens
+  - [x] More responsivenes for thicker and larger screens
 
   - REUSABLE COMPONENTS/UTILITIES
 
@@ -104,8 +108,9 @@ bun dev
 - ANIMATION/S
 
   - [ ] Burger
+  - [x] BUttons
   - [ ] Polish carousel ease
-  - [ ] Hover & Active states
+  - [ ] Hover & Active states (navbar)
 
 - BACKEND
 
@@ -116,6 +121,6 @@ bun dev
 - [ ] Support next/image
 - [ ] Reusable colors (CRUD pls)
 - [ ] Issues/bugs/to be added on Issues
-- [x] Removed FaQ page
+- [x] Removed FaQ's page
 - [x] Momentarly
 - [x] Vercel deployment
