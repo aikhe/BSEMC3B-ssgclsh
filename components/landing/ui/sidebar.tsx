@@ -61,7 +61,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
               </Link>
             </div>
           )}
-          {Links &&
+          {/* {Links &&
             Links.slice(1).map((link, i) => {
               return (
                 <Link
@@ -73,7 +73,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
                   {link.Text}
                 </Link>
               );
-            })}
+            })} */}
           <Link
             className="ml-auto mr-2 w-fit"
             onClick={handleClick}

@@ -115,7 +115,7 @@ export const Header = () => {
                   </Link>
                 </div>
               )}
-              <div className={`${isRoot ? "ml-4" : ""}`}>
+              {/* <div className={`${isRoot ? "ml-4" : ""}`}>
                 {Links &&
                   Links.slice(1).map((link, i) => {
                     return (
@@ -130,7 +130,7 @@ export const Header = () => {
                       </Link>
                     );
                   })}
-              </div>
+              </div> */}
             </div>
 
             <div className="flex items-center gap-4 leading-none">
