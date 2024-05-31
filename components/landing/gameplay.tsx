@@ -6,13 +6,13 @@ export const Gameplay = () => {
     <>
       <section
         id="gameplay"
-        className="clip-path-two thick:h-[60rem] thick:pt-[4.5rem] thick:-mb-[6rem] relative z-[8]
-          -mb-[4.7rem] grid h-[54.5rem] w-full items-center
-          justify-center bg-slate-600 pt-[8.8rem] lg:h-[52rem] lg:pt-[6rem]"
+        className="clip-path-two relative z-[8] -mb-[4.7rem] grid h-[54.5rem]
+          w-full items-center justify-center bg-slate-600 pt-[8.8rem]
+          lg:h-[52rem] lg:pt-[6rem] thick:-mb-[6rem] thick:h-[60rem] thick:pt-[4.5rem]"
       >
         <img
           className="absolute h-full w-full object-cover"
-          src="/images/background-images/bg3.png"
+          src="/images/background-images/variant1.png"
           alt=""
         />
         <div className="z-[8] flex flex-col gap-14 text-white lg:flex-row">
@@ -50,7 +50,7 @@ export const Gameplay = () => {
           </div>
         </div>
       </section>
-      <div className="clip-path-two thick:h-[6.5rem] thick:-mb-[6rem] relative z-[7] -mb-[5rem] h-[5rem] w-full bg-white"></div>
+      <div className="clip-path-two relative z-[7] -mb-[5rem] h-[5rem] w-full bg-white thick:-mb-[6rem] thick:h-[6.5rem]"></div>
     </>
   );
 };

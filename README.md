@@ -105,12 +105,18 @@ bun dev
     - [ ] Gallery
     - [ ] FaQ's
 
-- ANIMATION/S
+- ASSETS
+
+- [x] Pages background (3 variants)
+- [x] Import all assets to use (gc)
+
+- UTILS/ANIMATIONS
 
   - [ ] Burger
   - [x] BUttons
   - [ ] Polish carousel ease
   - [ ] Hover & Active states (navbar)
+  - [ ] Locomotive scroll
 
 - BACKEND
 

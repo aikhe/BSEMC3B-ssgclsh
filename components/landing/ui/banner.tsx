@@ -13,7 +13,6 @@ const icons = [
   },
   {
     Icon: Gem,
-    // Link: Links[1].Link,
     Link: "",
   },
   {

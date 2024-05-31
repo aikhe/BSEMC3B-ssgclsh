@@ -11,7 +11,7 @@ export const Arena = () => {
     >
       <img
         className="absolute h-full w-full object-cover"
-        src="/images/background-images/2.png"
+        src="/images/background-images/variant2.png"
         alt=""
       />
       <div
