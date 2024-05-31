@@ -7,12 +7,15 @@ import { motion } from "framer-motion";
 const characters = [
   {
     imgUrl: "/images/characters/sausage-placeholder1.png",
+    bg: "/images/characters/backdrop1.png",
   },
   {
     imgUrl: "/images/characters/sausage-placeholder3.png",
+    bg: "/images/characters/backdrop2.png",
   },
   {
     imgUrl: "/images/characters/sausage-placeholder2.png",
+    bg: "/images/characters/backdrop3.png",
   },
 ];
 
@@ -74,17 +77,17 @@ export const CharacterCarousel = () => {
                   className="flex w-[100vw] justify-center md:w-[30rem] lg:w-[50rem]"
                 >
                   <motion.div
-                    className={`size-[15rem] rounded-full border-[6px]
+                    className={`size-[15rem] overflow-hidden rounded-full border-[6px]
                     bg-white/40 drop-shadow-md md:size-[20rem] lg:size-[30rem] lg:border-[6px]
                     `}
                     animate={{
                       opacity: index === carouselIndex ? 1 : 0,
                     }}
                   >
-                    {char.imgUrl && (
+                    {char.bg && (
                       <img
-                        className="absolute h-full w-full object-cover"
-                        src={char.imgUrl}
+                        className="object- h-full w-full rounded-full"
+                        src={char.bg}
                         alt=""
                       />
                     )}

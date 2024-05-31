@@ -33,11 +33,11 @@ export const Gameplay = () => {
                 bg-white/40 drop-shadow-lg md:h-[20rem] md:w-[40rem] lg:h-[30rem] lg:w-[50rem]
                 lg:border-[6px]"
             >
-              <img
+              {/* <img
                 className="absolute h-full w-full object-cover"
                 src="/images/gameplay/gameplay.png"
                 alt=""
-              />
+              /> */}
             </div>
             <h3 className="text-outline ml-2 flex text-3xl text-white before:content-['EXCITING_AND_FUN...'] after:content-['EXCITING_AND_FUN...']">
               EXCITING AND FUN...

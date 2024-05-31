@@ -23,33 +23,33 @@ export const Arena = () => {
             className="-mb-4 h-[12.5rem] w-[22rem] rotate-6 overflow-hidden rounded-xl border-4
               border-white bg-white/40 drop-shadow-lg lg:-mb-12 lg:h-[25rem] lg:w-[40rem]"
           >
-            <img
+            {/* <img
               className="absolute h-full w-full object-cover"
               src="/images/arena/placeholder1.PNG"
               alt=""
-            />
+            /> */}
           </div>
           <div
             className="right-12 -mb-4 ml-20 h-[7.5rem] w-[13rem] -rotate-6 overflow-hidden rounded-xl
               border-4 border-white bg-white/40 drop-shadow-lg lg:-mb-[13rem] lg:ml-[22rem]
               lg:h-[12.5rem] lg:w-[22rem]"
           >
-            <img
+            {/* <img
               className="absolute h-full w-full object-cover"
               src="/images/arena/placeholder2.PNG"
               alt=""
-            />
+            /> */}
           </div>
           <div
             className="relative -z-[1] ml-12 h-[6rem] w-[10rem] rotate-[16deg] overflow-hidden rounded-xl
               border-4 border-white bg-white/40 drop-shadow-lg lg:-ml-[6rem] lg:h-[9rem]
               lg:w-[15rem] lg:rotate-[2deg]"
           >
-            <img
+            {/* <img
               className="absolute h-full w-full object-cover"
               src="/images/arena/placeholder3.PNG"
               alt=""
-            />
+            /> */}
           </div>
         </div>
         <div className="flex flex-col gap-10">
