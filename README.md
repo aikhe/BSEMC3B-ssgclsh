@@ -109,6 +109,7 @@ bun dev
 
 - [x] Pages background (3 variants)
 - [x] Import all assets to use (gc)
+- [x] Character carousel background (also 3 variants)
 
 - UTILS/ANIMATIONS
 

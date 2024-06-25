@@ -6,7 +6,7 @@ export const Arena = () => {
     <section
       id="arena"
       className="bg-neutral-content relative z-[4] grid h-[54rem] w-full items-center
-        justify-center border-b-4 border-white pt-[5.5rem] md:h-[40rem] lg:h-[48rem]
+        justify-center pt-[5.5rem] md:h-[40rem] lg:h-[48rem]
         lg:pt-0 thick:h-[52.5rem] thick:border-b-8"
     >
       <img
